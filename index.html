@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">                        
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./images/sygnet.png">
+    <title>Docplanner Group</title>
+</head>
+
+
+<body>
+   <header>
+        <nav class="main-header">
+            <a href="#about">
+                <img  alt="Docplanner group logo & name" src="./images/logo-default-group-en.svg" width="120" height="80" > 
+            </a>
+            
+            <nav class="main-nav">
+                
+                <a href="#about">About us</a>
+                <a href="#career">Career</a>
+                <div class="dropdown">
+                    <button class="dropbtn">Departments</button>
+                    <div class="dropdown-content">
+                        <a href="#">Marketing &amp; PR</a>
+                        <a href="#">Customer Success &amp; Sales</a>
+                        <a href="#">IT, Product, Data</a>
+                        <a href="#">Finance &amp; Administration</a>
+                        <a href="#">HR &amp; more</a>
+                    </div>
+                </div>
+                 
+            </nav>
+        </nav>
+      <!-- <nav>
+           <div class="main-nav">
+                <a href="#about">
+                    <img  alt="Docplanner group logo & name" src="./images/logo-default-group-en.svg" width="120" height="80" > 
+                </a>
+                <div class="nav-menu">
+                    <a href="#about"> About us</a>  
+                    <a href="#career"> Career</a>  
+                    <a href="#departments"> Departments </a>  
+ 
+                 </div>
+           
+           </div>
+           
+        </nav> -->
+    </header>  
+
+    <main>
+    
+    
+        <section class="description">
+            <div class="description">
+                <a href="#about">
+                    <img  alt="Docplanner group logo" src="./images/sygnet.png"  > <!--width="100" height="100"-->
+                    </a>
+                <h1>
+                    Making the healthcare experience more human 
+                </h1>
+                <div class="description-text">
+                    <p>
+                        We want patients to find the perfect doctor and book an appointment in the most easy way. The patient journey should be enjoyable, and that's why we are always next to them: to help them find the best possible care. Anytime, anywhere. 
+                    </p>
+                    <p>
+                        We also help doctors to better manage their practice and build their online reputation. With our integrated end-to-end solution, doctors are able not only to improve their online presence, but also to devote their time to what really matters: their patients. 
+                    </p>
+
+                </div>
+               
+            </div>
+            
+        </section>
+
+        <section class="clients">
+            <div class="clients">
+                <div class="cl-1"> 
+                    <img  alt="Docplanner group logo" src="./images/icon-patients.svg"/>   
+                    <br/> 
+                    <h>For patients</h>    
+                    <br/>   
+                    <p>
+                        Find a doctor, book a visit and solve any health-related doubt
+                    </p>     
+                    <br/>
+                    <br/>
+                    <select id="countries">
+                        <option>Choose country</option>
+                        <option value="argentina">Argentina</option>
+                        <option value="brazil">Brazil</option>
+                        <option value="chile">Chile</option>
+                        <option value="colombia">Colombia</option>
+                        <option value="czech">Czech</option>
+                        <option value="italy">Italy</option>
+                        <option value="mexico">Mexico</option>
+                        <option value="peru">Peru</option>
+                        <option value="poland">Poland</option>
+                        <option value="portugal">Portugal</option>
+                        <option value="spain">Spain</option>
+                        <option value="turkey">Turkey</option>
+                    </select>
+								
+                        
+                </div>
+
+                <div class="cl-2">
+                    <img  alt="Docplanner group logo" src="./images/icon-doctors.svg"/>  
+                    <br/>  
+                    <h>For doctors</h>       
+                    <p>
+                        Save time managing visits and cut no-shows by half
+                    </p>     
+                    <br/>
+                    <br/>
+                    <select id="drop-dwn">
+                        <option>Choose country</option>
+                        <option value="argentina">Argentina</option>
+                        <option value="brazil">Brazil</option>
+                        <option value="chile">Chile</option>
+                        <option value="colombia">Colombia</option>
+                        <option value="czech">Czech</option>
+                        <option value="italy">Italy</option>
+                        <option value="mexico">Mexico</option>
+                        <option value="peru">Peru</option>
+                        <option value="poland">Poland</option>
+                        <option value="portugal">Portugal</option>
+                        <option value="spain">Spain</option>
+                        <option value="turkey">Turkey</option>
+                    </select>
+								
+                        
+                </div>
+
+                <div class="cl-3">
+                    <img  alt="Docplanner group logo" src="./images/icon-clinics.svg"/>    
+                    <br/>
+                    <h>For clinics</h>       
+                    <p>
+                        Deliver an exceptional patient experience in your clinic
+                    </p>     
+                    
+                    <select id="drop-dwn">
+                        <option>2 to 20 specialists</option>
+                        <option value="brazil">Brazil</option>
+                        <option value="czech">Czech</option>
+                        <option value="italy">Italy</option>
+                        <option value="mexico">Mexico</option>
+                        <option value="poland">Poland</option>
+                        <option value="spain">Spain</option>
+                        <option value="turkey">Turkey</option>
+                    </select>
+                    <br/>
+                    
+                    <select data-id="drop-dwn">
+                        <option>More than 20 specialists</option>
+                        <option value="brazil">Brazil</option>
+                        <option value="italy">Italy</option>
+                        <option value="mexico">Mexico</option>
+                        <option value="poland">Poland</option>
+                        <option value="spain">Spain</option>
+                    </select>
+								
+                        
+                </div>
+
+            </div>
+           
+        </section>
+
+        <section id="partners">
+            <div class="partners">
+                <div>
+                    <p id="first">
+                        We are a global company with local culture
+                    </p>
+                </div>
+                <div class="partners-logos">
+                    <img  alt="Docplanner group logo" src="./images/sygnet.png"  > 
+                    <p>ZnanyLekarz</p>
+                    <img  alt="Docplanner group logo" src="./images/sygnet.png"  > 
+                    <p>Doctoralia</p>
+                    <img  alt="Docplanner group logo" src="./images/sygnet.png"  > 
+                    <p>MioDottore</p>
+                    <img  alt="Docplanner group logo" src="./images/sygnet.png"  > 
+                    <p>DoktorTakvimi</p>
+                    <img  alt="Docplanner group logo" src="./images/sygnet.png"  > 
+                    <p>ZnamyLekar</p>
+                    <img  alt="tuotempo" src="./images/logo-tuotempo.svg"  > 
+                    <img  alt="gipo" src="./images/logo-gipo.svg" >
+                    <img  alt="clinic-cloud" src="./images/logo-clinicloud.svg"  > 
+                </div>
+                
+        </section>
+
+        <section id="stats">
+            <div  class="stats"> 
+                <div id="stats-intro">
+                    <h>The world's biggest healthcare platform </h>
+                    <p>We work from 7 offices all over the world, bringing Docplanner Group to life in a dozen countries. 
+                    </p>
+                    <img  alt="Docplanner group logo" src="./images/sygnet.png"  >
+
+                </div>
+                
+                <div class="stats-cards">
+                    <div>
+                        <img  alt="flag icon" src="./images/flag.png"/>    <br/>
+                        <h>Leader in 12 countries</h>  <br/>
+                        <p>
+                            Poland, Brazil, Mexico, Spain, Italy, Turkey, Colombia, Czech Republic, Portugal, Argentina, Peru and Chile 
+                        </p>     
+
+                    </div>
+                    <div>
+                        <img  alt="visits icon" src="./images/visits.png"/>   <br/> 
+                        <h>4.8 million appointments</h>  <br/>
+                        <p>
+                            booked last month 
+                        </p>     
+
+                    </div>
+                    <div>
+                        <img  alt="patients icon" src="./images/patients.png"/>    <br/>
+                        <h>61.9 mln unique patients</h>  <br/>
+                        <p>
+                            visit our websites each month 
+                        </p>     
+
+                    </div>
+                    <div>
+                        <img  alt="doctors icon" src="./images/doctors.png"/>    <br/>
+                        <h>92.5k active doctors</h>  <br/>
+                        <p>
+                            trust our solutions  
+                        </p>     
+
+                    </div>
+ 
+                </div>
+            </div>
+        </section>
+
+        <section id="agencies">
+            <div class="agencies">
+                <h>
+                    Improve the lives of millions. Change yours forever 
+                </h>
+                <p>
+                    More than 1400 team mates share our same vision, goals and passion. With offices in Warsaw, Barcelona, Istanbul, Rome, Bologna, Mexico City and Curitiba, our search for great talent never stops. 
+                </p>
+                <div class="agencies-cards">
+                    <div>
+                        <img alt="warsaw" src="./images/warsaw.png"/>
+                        <div>
+                            <p> Warsaw</p>
+                            <input class="btn"
+                                    type="button"
+                                    value="SEE OPENINGS">
+                        </div>
+                    </div>
+                    <div>
+                        <img alt="barcelona" src="./images/barcelona.png"/>
+                        <div>
+                            <p> Barcelona</p>
+                            <input class="btn"
+                                    type="button"
+                                    value="SEE OPENINGS">
+                        </div>
+                    </div>
+                    <div>
+                        <img alt="istanbul" src="./images/istanbul.png"/>
+                        <div>
+                            <p> Istanbul</p>
+                            <input class="btn"
+                                    type="button"
+                                    value="SEE OPENINGS">
+                        </div>
+                    </div>
+                    <div>
+                        <img alt="rome" src="./images/rome.png"/>
+                        <div>
+                            <p> Rome</p>
+                            <input class="btn"
+                                    type="button"
+                                    value="SEE OPENINGS">
+                        </div>
+                    </div>
+                    <div>
+                        <img alt="bologna" src="./images/bologna.png"/>
+                        <div>
+                            <p> Bologna</p>
+                            <input class="btn"
+                                    type="button"
+                                    value="SEE OPENINGS">
+                        </div>
+                    </div>
+                    <div>
+                        <img alt="curitiba" src="./images/curitiba.png"/>
+                        <div>
+                            <p> Curitiba</p>
+                            <input class="btn"
+                                    type="button"
+                                    value="SEE OPENINGS">
+                        </div>
+                    </div>
+                    <div>
+                        <img alt="mexico city" src="./images/mexico-city.png"/>
+                        <div>
+                            <p> Mexico City</p>
+                            <input class="btn"
+                                    type="button"
+                                    value="SEE OPENINGS">
+                        </div>
+                    </div>
+                    
+                </div>
+
+            </div>
+
+        </section>
+
+        <section id="join">
+            <div class="join">
+                <p>
+                    Sounds interesting? Join us now! 
+                </p>
+                <input class="btn"
+                                    type="button"
+                                    value="SEE ALL CURRENT OPENINGS">
+
+            </div>
+
+        </section>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+    
+    </main>  
+    
+    <footer class="main-footer">
+        
+        <p>We are leaders in 11 countries:
+            <a href="#" target="_blank">Poland</a>, <a href="#" target="_blank">Turkey</a>,
+            <a href="#" target="_blank">Spain</a>,
+            <a href="#" target="_blank">Italy</a>,
+            <a href="#" target="_blank">Czech Republic</a>,
+            <a href="#" target="_blank">Mexico</a>,
+            <a href="#" target="_blank">Colombia</a>,
+            <a href="#" target="_blank">Brazil</a>,
+            <a href="#" target="_blank">Argentina</a>,
+            <a href="#" target="_blank">Peru</a>
+            and
+            <a href="#" target="_blank">Chile</a>
+        </p>
+        <p>This site uses cookies to deliver services in accordance with this Privacy Policy. You can specify the conditions for storing or accessing cookies on your browser.</p>
+
+        www.docplanner.com © 2021
+        
+    </footer>
+
+</body>
+</html>
